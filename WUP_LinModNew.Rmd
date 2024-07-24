@@ -45,20 +45,12 @@ plot(SIMS~ARM,data=data)
 
 This plot shows that as arm strength gets stronger, simulation value increases.
 
-### graphical results
-
-```{r}
-plot(SIMS~ARM,data=data)
-```
-
-
-### scatterplot
-
 ### Numerical results
 ```{r}
 cor(SIMS~ARM, data=data)
 ```
-the correlation shows that 
+the correlation shows that as arm strength increases, there is a positive correlation with SIM. 
+
 ### Inferential  (Build model.1)
 
 ```{r}
